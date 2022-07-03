@@ -7,7 +7,7 @@ It will then send the logs to your email. (set send_logs to True in config.py, a
 Let's be honest, python is not a good language for writing good malware (C/C++ will remain in my heart forever ❤).
 For example, Python code compiled into an executable can be decompiled into source code very easily.
 Moreover, multithreading is constrained by the GIL, so we are losing a bit in performance (You can use a different version of python such as Jython or IronPython). This keylogger is just a template to show the idea behind how the keylogger works. 
-Meaningful functions have not been implemented so that a person who cannot write code and would like to use it for illegal purposes could be easily traced. 
+Meaningful functions have not been implemented so that a person who cannot write code and would like to use it for illegal purposes could be easily traced and the program on the victim's computer can be easily exposed.
 The keyboard library does not work well if the user is typing quickly :( When I have a little more time, I will write my own.
 
 # Installation
