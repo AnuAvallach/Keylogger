@@ -1,6 +1,6 @@
 # Keylogger
  An example of how to write your own keylogger. The program intercepts the keys and takes screenshots only in the programs that we specify in the settings. In addition, the output file will contain the name of the browser tab where the user entered the data.
-It will then send the logs to your email. (set send_logs to True in config.py, and spy_these_programs to for example ["Mozilla Firefox"]).
+It will then send the logs to your email. (set send_logs to True in config.py, and spy_these_programs to for example ["Mozilla Firefox"]). The sent data will be automatically deleted from the disk.
    
    
 # A few words about this keylogger
