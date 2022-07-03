@@ -14,4 +14,5 @@ The keyboard library does not work well if the user is typing quickly :( When I 
 * Recommended python version: 3.9
 * pip install -r requirements.txt   
 * Set the options you are interested in in the config.py file.
+Use app password instead of account password. (https://support.google.com/mail/answer/185833?hl=en-GB)
 * Run main.py
